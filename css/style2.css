@@ -39,3 +39,11 @@ li  li{
 li  li  li{
   background-color: deepskyblue;
 }
+
+a:hover {
+  font-size: xx-large;
+}
+
+li:hover {
+  font-size: x-large;
+}
