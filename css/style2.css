@@ -7,9 +7,16 @@ use float to make something locate itself on the right or left
 
 */
 
+@keyframes enlarge {
+  0%   {font-size: medium}
+  25%  {font-size: large;}
+  50%  {font-size: x-large;}
+  100% {font-size: xx-large;}
+}
+
 body{
-    padding: 30px;
-    background-color: mediumspringgreen;
+  padding: 30px;
+  background-color: mediumspringgreen;
 }
 
 .discipline.csci{
@@ -45,5 +52,7 @@ a:hover {
 }
 
 li:hover {
-  font-size: x-large;
+  font-size: xx-large;
+  animation-name: enlarge;
+  animation-duration: .25s;
 }
