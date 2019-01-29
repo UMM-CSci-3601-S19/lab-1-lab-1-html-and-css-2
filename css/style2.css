@@ -37,14 +37,17 @@ body{
 
 li{
   background-color: lightcoral;
+  border-radius: 10px;
 }
 
 li  li{
   background-color: yellow;
+  border-radius: 10px;
 }
 
 li  li  li{
   background-color: deepskyblue;
+  border-radius: 10px;
 }
 
 a:hover {
