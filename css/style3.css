@@ -42,8 +42,8 @@ body{
 }
 
 #style {
-  position: fixed;
-  background-color: #2faa2d;
+  position: absolute;
+  background-color: #000000;
   left: 0;
   right: 0;
   top: 0;
