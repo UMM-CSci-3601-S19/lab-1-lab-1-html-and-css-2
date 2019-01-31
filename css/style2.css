@@ -71,3 +71,13 @@ li:hover {
 #faculty ul {
   column-count: 2;
 }
+
+@media screen and (max-width: 1200px) {
+  ol,ul,li {
+    flex-direction: column;
+  }
+}
+
+ol,ul,li {
+  display: flex;
+}
