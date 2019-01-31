@@ -62,11 +62,31 @@ body{
 
 }
 
+#style li a {
+  color: #57fb22;
+  display: block;
+  font-family: monospace;
+  font-size: large;
+  padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
+  text-align: center;
+  text-decoration: underline;
+
+}
+
 #style ul {
+  justify-content: flex-end;
   list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #000000;
+}
+
+h2 {
+  font-family: 'Lucida Console',Monospace;
+}
+
+ol {
+  list-style-type: upper-roman;
 }
