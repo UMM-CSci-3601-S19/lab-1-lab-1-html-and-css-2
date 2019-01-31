@@ -52,14 +52,18 @@ body{
 }
 
 #style li a {
+  color: #57fb22;
   display: block;
-  color: white;
-  text-align: center;
+  font-family: monospace;
+  font-size: large;
   padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
-  text-decoration: none;
+  text-align: center;
+  text-decoration: underline;
+
 }
 
 #style ul {
+  list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
