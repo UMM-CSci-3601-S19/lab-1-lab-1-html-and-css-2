@@ -41,6 +41,12 @@ body{
   align-content: center;
 }
 
+ol {
+  list-style-type: upper-roman;
+  border-style: dotted;
+  padding: 20px;
+}
+
 #style {
   position: absolute;
   background-color: #000000;
@@ -62,16 +68,6 @@ body{
 
 }
 
-#style li a {
-  color: #57fb22;
-  display: block;
-  font-family: monospace;
-  font-size: large;
-  padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
-  text-align: center;
-  text-decoration: underline;
-
-}
 
 #style ul {
   justify-content: flex-end;
@@ -87,6 +83,4 @@ h2 {
   font-family: 'Lucida Console',Monospace;
 }
 
-ol {
-  list-style-type: upper-roman;
-}
+
