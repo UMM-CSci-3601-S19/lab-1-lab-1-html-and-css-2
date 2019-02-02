@@ -20,6 +20,11 @@ body {
   font-family: monospace;
 }
 
+.pslo-courses-container {
+  background:#ce6105;
+  color:#e2bd80;
+}
+
 .faculty-container {
   display: flex;
   flex-direction: column;
