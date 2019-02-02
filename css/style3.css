@@ -7,7 +7,7 @@ use float to make something locate itself on the right or left
 
 */
 
-body{
+body {
   padding: 30px;
   color: #456C5C;
   background-color: #E9AA5E;
@@ -16,7 +16,6 @@ body{
 }
 
 #main-title {
-  color: #57fb22;
   margin-top: 50px;
   font-family: monospace;
 }
