@@ -55,6 +55,10 @@ body {
   align-content: center;
 }
 
+#faculty-list>li {
+  margin:15px;
+}
+
 .card-body {
   background: #5B9176;
   padding-left: 8px;
