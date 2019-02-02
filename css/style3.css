@@ -41,6 +41,8 @@ body{
 }
 
 ol {
+  background: #5B9176;
+  color: #C0BC86;
   list-style-type: upper-roman;
   border-style: dotted;
   padding: 20px;
