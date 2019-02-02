@@ -64,6 +64,14 @@ body {
   border: dashed;
 }
 
+.card-text>a {
+  color: #2f483e;
+}
+
+.card-text>ul>li>a {
+  color: #2f483e;
+}
+
 ol {
   background: #5B9176;
   color: #d6d29c;
