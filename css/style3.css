@@ -8,12 +8,11 @@ use float to make something locate itself on the right or left
 */
 
 body{
-    padding: 30px;
-    color: #57fb22;
-    background-color: #000000;
-    display: flex;
-    flex-direction: column;
-
+  padding: 30px;
+  color: #456C5C;
+  background-color: #E9AA5E;
+  display: flex;
+  flex-direction: column;
 }
 
 #main-title {
@@ -46,6 +45,7 @@ ol {
   border-style: dotted;
   padding: 20px;
 }
+
 
 #style {
   position: absolute;
