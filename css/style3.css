@@ -50,11 +50,14 @@ ol {
 ol li {
   margin-left: 10px;
   margin-bottom: 3px;
+
 }
 
-#courses ul {
+#courses>ul {
   background: #5B9176;
   color: #d6d29c;
+  padding: 20px;
+  border: dashed;
 }
 
 #style {
