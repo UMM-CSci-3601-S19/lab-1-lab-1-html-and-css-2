@@ -28,6 +28,7 @@ body {
 }
 
 .faculty-container {
+  padding: 15px;
   background:#D75C24;
   color:#e2bd80;
   margin-top: 20px;
@@ -35,7 +36,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #faculty-list {
@@ -52,6 +53,10 @@ body {
                         550px width of screen. */
   justify-content: center;
   align-content: center;
+}
+
+.card-body {
+  background: #5B9176;
 }
 
 ol {
