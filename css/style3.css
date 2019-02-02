@@ -46,6 +46,10 @@ ol {
   padding: 20px;
 }
 
+ol li {
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
 
 #style {
   position: absolute;
