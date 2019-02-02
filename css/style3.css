@@ -41,7 +41,7 @@ body {
 
 ol {
   background: #5B9176;
-  color: #C0BC86;
+  color: #d6d29c;
   list-style-type: upper-roman;
   border-style: dotted;
   padding: 20px;
@@ -50,6 +50,11 @@ ol {
 ol li {
   margin-left: 10px;
   margin-bottom: 3px;
+}
+
+#courses ul {
+  background: #5B9176;
+  color: #d6d29c;
 }
 
 #style {
