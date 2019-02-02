@@ -42,6 +42,8 @@ body {
   background:#5B9176;
   color: #d6d29c;
   padding-left: 0;
+  border-style: dashed;
+  padding: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; /* This tell's the flex items to wrap if there
