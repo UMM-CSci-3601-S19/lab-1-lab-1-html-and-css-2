@@ -21,13 +21,15 @@ body {
 }
 
 .pslo-courses-container {
-  background:#ce6105;
+  background:#D75C24;
   color:#e2bd80;
   border-radius:12px;
   padding:15px;
 }
 
 .faculty-container {
+  background:#D75C24;
+  color:#e2bd80;
   display: flex;
   flex-direction: column;
   justify-content: center;
