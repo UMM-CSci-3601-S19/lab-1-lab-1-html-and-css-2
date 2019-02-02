@@ -39,6 +39,8 @@ body {
 }
 
 #faculty-list {
+  background:#5B9176;
+  color: #d6d29c;
   padding-left: 0;
   display: flex;
   flex-direction: row;
