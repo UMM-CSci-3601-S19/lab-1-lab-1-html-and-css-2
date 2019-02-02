@@ -54,7 +54,6 @@ ol li {
 
 #style {
   position: absolute;
-  background-color: #000000;
   left: 0;
   right: 0;
   top: 0;
@@ -81,7 +80,7 @@ ol li {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #D75C24;
 }
 
 h2 {
