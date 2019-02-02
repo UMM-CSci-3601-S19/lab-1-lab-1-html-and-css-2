@@ -43,7 +43,7 @@ ol {
   background: #5B9176;
   color: #d6d29c;
   list-style-type: upper-roman;
-  border-style: dotted;
+  border-style: dashed;
   padding: 20px;
 }
 
