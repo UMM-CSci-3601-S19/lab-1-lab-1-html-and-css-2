@@ -30,6 +30,7 @@ use float to make something locate itself on the right or left
 body{
   padding: 30px;
   background-color: mediumspringgreen;
+  text-align: center;
 }
 
 .discipline.csci{
@@ -87,6 +88,7 @@ li:hover {
 
 #courses li {
  max-width: 750px;   
+ text-align: left;
 }
 
 h1 {
