@@ -99,3 +99,19 @@ h1 {
 h2 {
  font-size: 2em;   
 }
+
+div {
+    background-color: white;
+    border-style: double;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+div div {
+  background-color: yellow;
+}
+
+div div div {
+  background-color: white;
+}
