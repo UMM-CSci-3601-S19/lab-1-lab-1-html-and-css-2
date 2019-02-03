@@ -51,7 +51,7 @@ body {
                         isn't enough space for all of the items. Without this the
                         faculty images will be in a row and only resize well unitl around
                         550px width of screen. */
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
 }
 
@@ -129,7 +129,7 @@ ol li {
 }
 
 h2 {
-  font-family: 'Lucida Console',Monospace;
+  font-family: 'Lucida Console', Monospace;
 }
 
 
