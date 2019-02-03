@@ -7,6 +7,19 @@ use float to make something locate itself on the right or left
 
 */
 
+@keyframes color {
+    0% {background-color: brown;}
+    10% {background-color: yellow;}
+    20% {background-color: red;}
+    30% {background-color: lightblue;}
+    40% {background-color: magenta;}
+    50% {background-color: white;}
+    60% {background-color: orange;}
+    70% {background-color: gold;}
+    80% {background-color: honeydew;}
+    90% {background-color: indianred;}
+}
+
 @keyframes enlarge {
   0%   {font-size: medium}
   25%  {font-size: large;}
@@ -74,4 +87,15 @@ li:hover {
 
 #courses li {
  max-width: 750px;   
+}
+
+h1 {
+ font-size: 3em;  
+ animation-name: color;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+}
+
+h2 {
+ font-size: 2em;   
 }
