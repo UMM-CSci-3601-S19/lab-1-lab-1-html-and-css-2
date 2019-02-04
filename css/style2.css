@@ -31,6 +31,9 @@ body{
   padding: 30px;
   background-color: mediumspringgreen;
   text-align: center;
+  animation-name: color;
+ animation-duration: 100s;
+ animation-iteration-count: infinite;
 }
 
 .discipline.csci{
@@ -108,14 +111,23 @@ div {
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
+    animation-name: color;
+ animation-duration: 75s;
+ animation-iteration-count: infinite;
 }
 
 div div {
   background-color: yellow;
+  animation-name: color;
+ animation-duration: 50s;
+ animation-iteration-count: infinite;
 }
 
 div div div {
   background-color: white;
+  animation-name: color;
+ animation-duration: 20s;
+ animation-iteration-count: infinite;
 }
 
 #courses {
