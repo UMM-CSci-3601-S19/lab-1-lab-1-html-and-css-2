@@ -33,6 +33,34 @@ body {
   flex-direction: column;
 }
 
+#ethical-and-social-implications {
+  order:1;
+}
+
+#math-and-stats {
+  order:2;
+}
+
+#introductory-sequence {
+  order:3;
+}
+
+#data-structures {
+  order:4;
+}
+
+#core-courses {
+  order: 5;
+}
+
+#senior-seminar {
+  order: 6;
+}
+
+#electives {
+  order:7;
+}
+
 .faculty-container {
   padding: 15px;
   background:#D75C24;
