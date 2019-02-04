@@ -28,6 +28,11 @@ body {
   padding:15px;
 }
 
+#courses>ul {
+  display: flex;
+  flex-direction: column;
+}
+
 .faculty-container {
   padding: 15px;
   background:#D75C24;
