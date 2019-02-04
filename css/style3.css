@@ -9,10 +9,11 @@ use float to make something locate itself on the right or left
 
 body {
   padding: 30px;
-  color: #456C5C;
-  background-color: #E9AA5E;
+  color: #3abd08;
+  background-image: url("carr2.jpg");
   display: flex;
   flex-direction: column;
+  background-attachment: fixed;
 }
 
 #main-title {
@@ -39,7 +40,7 @@ body {
 }
 
 #faculty-list {
-  background:#5B9176;
+  background:#469428;
   color: #d6d29c;
   padding-left: 0;
   border-style: dashed;
@@ -59,7 +60,7 @@ body {
 }
 
 .card-body {
-  background: #5B9176;
+  background: #469428;
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 3px;
@@ -76,7 +77,7 @@ body {
 }
 
 ol {
-  background: #5B9176;
+  background: #469428;
   color: #d6d29c;
   list-style-type: upper-roman;
   border-style: dashed;
@@ -85,12 +86,12 @@ ol {
 
 ol li {
   margin-left: 10px;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
 
 }
 
 #courses>ul {
-  background: #5B9176;
+  background: #469428;
   color: #d6d29c;
   padding: 20px;
   border: dashed;
