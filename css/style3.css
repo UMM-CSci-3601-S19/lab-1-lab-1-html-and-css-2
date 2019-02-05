@@ -209,6 +209,9 @@ h2 {
   body {
     font-size: x-small;
   }
+  #style>ul>li>a {
+    font-size: x-small;
+  }
 }
 
 
