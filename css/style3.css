@@ -172,4 +172,20 @@ h2 {
   font-family: 'Lucida Console', Monospace;
 }
 
+@media screen and (max-width: 400px) {
+  #courses > ul > li > ul {
+    padding-inline-start: 25px;
+  }
+
+  #courses > ul > li > ul > li > ul {
+    padding-inline-start: 15px;
+  }
+
+  .card-body > ul {
+    padding-inline-start: 25px;
+  }
+}
+
+
+
 
