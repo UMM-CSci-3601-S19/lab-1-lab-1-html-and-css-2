@@ -147,8 +147,15 @@ ol li {
   padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
   text-align: center;
   text-decoration: underline;
-
 }
+
+
+
+.pic {
+  width: 95%;
+}
+
+
 
 
 #style ul {
