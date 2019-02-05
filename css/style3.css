@@ -184,6 +184,10 @@ h2 {
   .card-body > ul {
     padding-inline-start: 25px;
   }
+
+  #style>ul>li>a {
+    font-size: medium;
+  }
 }
 
 
