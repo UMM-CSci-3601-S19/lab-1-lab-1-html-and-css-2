@@ -97,7 +97,7 @@ li:hover {
 h1 {
  font-size: 3em;  
  animation-name: color;
- animation-duration: 10s;
+ animation-duration: 20s;
  animation-iteration-count: infinite;
 }
 
@@ -119,14 +119,14 @@ div {
 div div {
   background-color: yellow;
   animation-name: color;
- animation-duration: 50s;
+ animation-duration: 60s;
  animation-iteration-count: infinite;
 }
 
 div div div {
   background-color: white;
   animation-name: color;
- animation-duration: 20s;
+ animation-duration: 30s;
  animation-iteration-count: infinite;
 }
 
