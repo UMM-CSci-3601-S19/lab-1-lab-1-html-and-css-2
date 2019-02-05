@@ -200,6 +200,9 @@ h2 {
   #style>ul>li>a {
     font-size: small;
   }
+  .card-body>ul {
+    padding-inline-start: 15px;
+  }
 }
 
 
