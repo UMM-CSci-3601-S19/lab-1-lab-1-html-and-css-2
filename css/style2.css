@@ -81,6 +81,10 @@ li:hover {
   font-size: 3em;
 }
 
+ul {
+    list-style-type: none;
+}
+
 #courses {
   float: right;
 }
@@ -89,9 +93,18 @@ li:hover {
   column-count: 2;
 }
 
-#courses li {
+#courses ul {
  max-width: 750px;   
  text-align: left;
+ list-style-type: disc;
+}
+
+#courses ul ul {
+  list-style-type: circle;
+}
+
+#courses ul ul ul {
+  list-style-type: square;
 }
 
 h1 {
