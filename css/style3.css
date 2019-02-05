@@ -212,6 +212,17 @@ h2 {
   #style>ul>li>a {
     font-size: x-small;
   }
+  #courses > ul > li > ul {
+    padding-inline-start: 15px;
+  }
+
+  #courses > ul > li > ul > li > ul {
+    padding-inline-start: 7px;
+  }
+
+  .card-body>ul {
+    padding-inline-start: 15px;
+  }
 }
 
 
