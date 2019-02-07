@@ -176,15 +176,15 @@ h2 {
 
 @media screen and (max-width: 400px) {
   #courses > ul > li > ul {
-    padding-inline-start: 25px;
+    padding-left: 25px;
   }
 
   #courses > ul > li > ul > li > ul {
-    padding-inline-start: 15px;
+    padding-left: 15px;
   }
 
   .card-body > ul {
-    padding-inline-start: 25px;
+    padding-left: 25px;
   }
 
   #style>ul>li>a {
@@ -203,7 +203,7 @@ h2 {
     font-size: small;
   }
   .card-body>ul {
-    padding-inline-start: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -215,15 +215,15 @@ h2 {
     font-size: x-small;
   }
   #courses > ul > li > ul {
-    padding-inline-start: 15px;
+    padding-left: 15px;
   }
 
   #courses > ul > li > ul > li > ul {
-    padding-inline-start: 7px;
+    padding-left: 7px;
   }
 
   .card-body>ul {
-    padding-inline-start: 15px;
+    padding-left: 15px;
   }
 }
 
