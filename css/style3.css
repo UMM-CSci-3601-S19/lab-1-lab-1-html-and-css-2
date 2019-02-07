@@ -9,10 +9,12 @@ Last Updated: 2/6/2019
 /*
 Notable differences from the original style:
 
+(you can search to find the example in the CSS... so you would search "1)" to find the first example.)
+
 1) The style container no longer moves with scrolling, but is actually fixed at the top of the page. The hyperlinks are
 also aligned to the right of the container.
 
-2) The PSLOCourses container now flexes into a column, which stacks the PSLO and courses subcontainers, rather than
+2) The PSLOCourses container no longer flexes into a row, but stacks the PSLO and courses subcontainers, rather than
 having them side-by-side. This was done by changing flex-direction from row to column.
 
 3) The required courses are now listed in a completely different order (not inverse) using an order attribute for each
@@ -47,6 +49,8 @@ body {
   color: #308808;
 }
 
+/* 2) */
+/* 4) */
 .pslo-courses-container {
   background:#D75C24;
   color:#e2bd80;
@@ -59,6 +63,7 @@ body {
   flex-direction: column;
 }
 
+/* 3) */
 #ethical-and-social-implications {
   order:1;
 }
@@ -87,6 +92,7 @@ body {
   order:7;
 }
 
+/* 4) */
 .faculty-container {
   padding: 15px;
   background:#D75C24;
@@ -156,6 +162,7 @@ ol li {
   border: dashed;
 }
 
+/* 1) */
 #style {
   position: absolute;
   left: 0;
@@ -193,6 +200,7 @@ h2 {
   font-family: 'Lucida Console', Monospace;
 }
 
+/* 5) */
 @media screen and (max-width: 400px) {
   #courses > ul > li > ul {
     padding-left: 25px;
@@ -211,12 +219,14 @@ h2 {
   }
 }
 
+/* 5) */
 @media screen and (max-width: 352px) {
   body {
     font-size:smaller;
   }
 }
 
+/* 5) */
 @media screen and (max-width: 315px) {
   #style>ul>li>a {
     font-size: small;
@@ -226,6 +236,7 @@ h2 {
   }
 }
 
+/* 5) */
 @media screen and (max-width: 250px) {
   body {
     font-size: x-small;
