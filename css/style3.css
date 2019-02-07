@@ -240,11 +240,11 @@ h2 {
   }
 
   #courses > ul > li > ul, .card-body>ul {
-    padding-left: 15px;
+    padding-left: 14px;
   }
 
   #courses > ul > li > ul > li > ul {
-    padding-left: 7px;
+    padding-left: 6px;
   }
 
 }
