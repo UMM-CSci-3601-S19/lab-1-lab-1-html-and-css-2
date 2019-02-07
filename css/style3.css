@@ -1,9 +1,33 @@
 /*
-hint:
-use # in front of the name of an id from your html page
-use . in front of the name of a class of things from your html page
-use , to separate a list of things that have some shared css rule
-use float to make something locate itself on the right or left
+Author: Nathan Foss
+Class: CSCI 3601
+
+Last Updated: 2/6/2019
+
+ */
+
+/*
+Notable differences from the original style:
+
+1) The style container no longer moves with scrolling, but is actually fixed at the top of the page. The hyperlinks are
+also aligned to the right of the container.
+
+2) The PSLOCourses container now flexes into a column, which stacks the PSLO and courses subcontainers, rather than
+having them side-by-side.
+
+3) The required courses are now listed in a completely different order (not inverse) using an order attribute for each
+item within the list.
+
+4) The two largest divs (Pslo-courses-container and faculty-container) now have solid backgrounds, which makes their
+children containers (#PSLO/#courses and #faculty/#validation, respectively) appear to be paired together, rather than
+separated.
+
+5) Resizing for smaller screen was taken a couple steps further. There are four tiers of screen-width, and resizing the
+font, hyperlinks, and list item indentation (left-padding) are downsized to preserve the aesthetic of the page. (see
+at the bottom of the page).
+
+Other notes: I've created styles specific to general containers, specific classes or IDs, as well as specific elements
+within containers, classes, IDs, etc. There are also screen-width rules at the bottom.
 
 */
 
@@ -151,14 +175,9 @@ ol li {
   text-decoration: underline;
 }
 
-
-
 .pic {
   width: 95%;
 }
-
-
-
 
 #style ul {
   justify-content: flex-end;
