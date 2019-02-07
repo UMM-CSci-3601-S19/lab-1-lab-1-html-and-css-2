@@ -13,7 +13,7 @@ Notable differences from the original style:
 also aligned to the right of the container.
 
 2) The PSLOCourses container now flexes into a column, which stacks the PSLO and courses subcontainers, rather than
-having them side-by-side.
+having them side-by-side. This was done by changing flex-direction from row to column.
 
 3) The required courses are now listed in a completely different order (not inverse) using an order attribute for each
 item within the list.
@@ -22,9 +22,9 @@ item within the list.
 children containers (#PSLO/#courses and #faculty/#validation, respectively) appear to be paired together, rather than
 separated.
 
-5) Resizing for smaller screen was taken a couple steps further. There are four tiers of screen-width, and resizing the
-font, hyperlinks, and list item indentation (left-padding) are downsized to preserve the aesthetic of the page. (see
-at the bottom of the page).
+5) Resizing for smaller screen was taken a couple steps further. There are four tiers of screen-width, and  the
+ list item indentations (left-padding) are downsized to preserve the aesthetic of the page when the screen gets
+ smaller (see the last 4 styles at the bottom of the page ).
 
 Other notes: I've created styles specific to general containers, specific classes or IDs, as well as specific elements
 within containers, classes, IDs, etc. There are also screen-width rules at the bottom.
