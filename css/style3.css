@@ -10,7 +10,7 @@ use float to make something locate itself on the right or left
 body {
   padding: 30px;
   color: #3abd08;
-  background-image: url("carr2.jpg");
+  background-image: url("../assets/carr2.JPG");
   display: flex;
   flex-direction: column;
   background-attachment: fixed;
