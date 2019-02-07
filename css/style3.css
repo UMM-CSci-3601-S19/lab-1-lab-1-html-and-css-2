@@ -9,15 +9,18 @@ use float to make something locate itself on the right or left
 
 body {
   padding: 30px;
-  color: #456C5C;
-  background-color: #E9AA5E;
+  color: #3abd08;
+  background-image: url("carr2.jpg");
   display: flex;
   flex-direction: column;
+  background-attachment: fixed;
 }
 
 #main-title {
   margin-top: 50px;
   font-family: monospace;
+  text-decoration: underline;
+  color: #308808;
 }
 
 .pslo-courses-container {
@@ -25,6 +28,39 @@ body {
   color:#e2bd80;
   border-radius:12px;
   padding:15px;
+}
+
+#courses>ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#ethical-and-social-implications {
+  order:1;
+}
+
+#math-and-stats {
+  order:2;
+}
+
+#introductory-sequence {
+  order:3;
+}
+
+#data-structures {
+  order:4;
+}
+
+#core-courses {
+  order: 5;
+}
+
+#senior-seminar {
+  order: 6;
+}
+
+#electives {
+  order:7;
 }
 
 .faculty-container {
@@ -39,7 +75,7 @@ body {
 }
 
 #faculty-list {
-  background:#5B9176;
+  background:#469428;
   color: #d6d29c;
   padding-left: 0;
   border-style: dashed;
@@ -59,7 +95,7 @@ body {
 }
 
 .card-body {
-  background: #5B9176;
+  background: #469428;
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 3px;
@@ -76,7 +112,7 @@ body {
 }
 
 ol {
-  background: #5B9176;
+  background: #469428;
   color: #d6d29c;
   list-style-type: upper-roman;
   border-style: dashed;
@@ -85,12 +121,12 @@ ol {
 
 ol li {
   margin-left: 10px;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
 
 }
 
 #courses>ul {
-  background: #5B9176;
+  background: #469428;
   color: #d6d29c;
   padding: 20px;
   border: dashed;
@@ -106,15 +142,22 @@ ol li {
 }
 
 #style li a {
-  color: #c0bc86;
+  color: #2f463a;
   display: block;
   font-family: monospace;
   font-size: large;
   padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
   text-align: center;
   text-decoration: underline;
-
 }
+
+
+
+.pic {
+  width: 95%;
+}
+
+
 
 
 #style ul {
@@ -130,5 +173,60 @@ ol li {
 h2 {
   font-family: 'Lucida Console', Monospace;
 }
+
+@media screen and (max-width: 400px) {
+  #courses > ul > li > ul {
+    padding-left: 25px;
+  }
+
+  #courses > ul > li > ul > li > ul {
+    padding-left: 15px;
+  }
+
+  .card-body > ul {
+    padding-left: 25px;
+  }
+
+  #style>ul>li>a {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  body {
+    font-size:smaller;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  #style>ul>li>a {
+    font-size: small;
+  }
+  .card-body>ul {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  body {
+    font-size: x-small;
+  }
+  #style>ul>li>a {
+    font-size: x-small;
+  }
+  #courses > ul > li > ul {
+    padding-left: 15px;
+  }
+
+  #courses > ul > li > ul > li > ul {
+    padding-left: 7px;
+  }
+
+  .card-body>ul {
+    padding-left: 15px;
+  }
+}
+
+
 
 
