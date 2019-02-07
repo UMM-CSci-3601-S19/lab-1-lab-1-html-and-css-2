@@ -142,11 +142,7 @@ body {
   border: dashed;
 }
 
-.card-text>a {
-  color: #2f483e;
-}
-
-.card-text>li>a {
+.card-text>a, .card-text>li>a {
   color: #2f483e;
 }
 
