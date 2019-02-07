@@ -1,0 +1,173 @@
+/*
+hint:
+use # in front of the name of an id from your html page
+use . in front of the name of a class of things from your html page
+use , to separate a list of things that have some shared css rule
+use float to make something locate itself on the right or left
+*/
+
+@keyframes color {
+  0% {background-color: brown;}
+  10% {background-color: yellow;}
+  20% {background-color: red;}
+  30% {background-color: lightblue;}
+  40% {background-color: magenta;}
+  50% {background-color: white;}
+  60% {background-color: orange;}
+  70% {background-color: gold;}
+  80% {background-color: honeydew;}
+  90% {background-color: indianred;}
+}
+
+@keyframes enlarge {
+  0%   {font-size: medium}
+  25%  {font-size: large;}
+  50%  {font-size: x-large;}
+  100% {font-size: xx-large;}
+}
+
+body{
+  padding: 30px;
+  background-color: mediumspringgreen;
+  text-align: center;
+  animation-name: color;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+
+.discipline.csci{
+  color: black;
+}
+
+.discipline.math{
+  color: purple;
+}
+
+.discipline.stat{
+  color: green;
+}
+
+.major-element.level-1xxx{
+  background-color: plum;
+}
+
+li{
+  background-color: lightcoral;
+  border-radius: 10px;
+}
+
+li  li{
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+li  li  li{
+  background-color: deepskyblue;
+  border-radius: 10px;
+}
+
+a:hover {
+  font-size: xx-large;
+}
+
+li:hover {
+  font-size: xx-large;
+  animation-name: enlarge;
+  animation-duration: .25s;
+}
+
+.name {
+  font-size: 3em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#courses {
+  float: right;
+}
+
+#faculty ul {
+  column-count: 2;
+}
+
+#courses ul {
+  max-width: 750px;
+  text-align: left;
+  list-style-type: disc;
+}
+
+#courses ul ul {
+  list-style-type: circle;
+}
+
+#courses ul ul ul {
+  list-style-type: square;
+}
+
+h1 {
+  font-size: 3em;
+  animation-name: color;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+div {
+  background-color: white;
+  border-style: double;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  animation-name: color;
+  animation-duration: 75s;
+  animation-iteration-count: infinite;
+}
+
+div div {
+  background-color: yellow;
+  animation-name: color;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
+div div div {
+  background-color: white;
+  animation-name: color;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+#courses {
+  max-width: 50%;
+}
+
+img {
+  width: 95%;
+}
+
+@media screen and (max-width: 1200px) {
+  #courses {
+    max-width: 40%;
+  }
+  #faculty ul {
+    column-count: 1;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #courses {
+    float: none;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  h2 {
+    font-size: 1.5em;
+  }
+}
